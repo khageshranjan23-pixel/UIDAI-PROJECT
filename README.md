@@ -69,8 +69,8 @@ Final Risk Score is derived from a weighted combination of:
 | Risk Score | Meaning |
 |-----------|--------|
 | < 0.30 | Normal |
-| 0.30 – 0.47 | Elevated |
-| > 0.47 | High Risk |
+| 0.30 – 0.47 | to be monitored |
+| > 0.47 | High Risk (need audit)|
 
 These thresholds are chosen to reflect **realistic operational risk**, not theoretical extremes.
 
@@ -90,8 +90,7 @@ Built using **Streamlit** for clarity and ease of presentation.
 ## 🗂 Repository Structure
 
 How to Run
-1️⃣ Clone repository
-git clone https://github.com/<your-username>/UIDAI-PROJECT.git
+1️⃣ Clone this repository
 cd UIDAI-PROJECT
 
 2️⃣ Create environment
@@ -103,5 +102,5 @@ conda install -c conda-forge pandas numpy scikit-learn tensorflow matplotlib sea
 
 Execute the Jupyter notebook to generate processed outputs
 
-4️⃣ Launch dashboard
+4️⃣ Launch dashboard in anaconda prompt
 streamlit run app.py
